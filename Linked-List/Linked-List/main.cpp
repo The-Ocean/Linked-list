@@ -8,6 +8,6 @@
 
 int main()
 {
-	Test_remove_list();
+	Test_partition();
 	return 0;
 }

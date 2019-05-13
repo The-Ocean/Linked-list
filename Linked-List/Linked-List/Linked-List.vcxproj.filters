@@ -18,6 +18,24 @@
     <ClInclude Include="remove_list.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="reverse_List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="middleNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="copyRandomList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindKthToTail_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeTwoLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="partition_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

@@ -11,7 +11,7 @@ struct Node
 
 struct Node* copyRandomList(struct Node* head)
 {
-	//1.鎷疯礉val涓巒ext锛屽苟鍚堝苟閾捐〃
+	//1.拷贝val与next，并合并链表
 	struct Node* cur = head;
 	while (cur != NULL)
 	{
@@ -22,7 +22,7 @@ struct Node* copyRandomList(struct Node* head)
 		cur->next = node;
 		cur = next;
 	}
-	//2.灏唕andom鐨勫�兼嫹璐濆埌鏂伴摼琛ㄤ笂
+	//2.将random的值拷贝到新链表上
 	cur = head;
 	while (cur != NULL)
 	{	
@@ -40,7 +40,7 @@ struct Node* copyRandomList(struct Node* head)
 			cur = next;
 		}
 	}
-	//鎷嗗垎閾捐〃
+	//拆分链表
 	cur = head;
 	if (cur == NULL)
 	{
@@ -48,7 +48,7 @@ struct Node* copyRandomList(struct Node* head)
 	}
 		// 1	2	 3	  4
 		//	 1	  2	   3	 4
-	struct Node* nodehead = cur->next;//淇濆瓨杩斿洖閾捐〃鐨勫ご鑺傜偣
+	struct Node* nodehead = cur->next;//保存返回链表的头节点
 	while (cur != NULL)
 	{
 		struct Node* temp = cur->next->next;

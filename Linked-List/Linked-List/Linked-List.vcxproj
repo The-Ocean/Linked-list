@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="copyRandomList.h" />
+    <ClInclude Include="FindKthToTail_list.h" />
+    <ClInclude Include="mergeTwoLists.h" />
+    <ClInclude Include="middleNode.h" />
+    <ClInclude Include="partition_list.h" />
     <ClInclude Include="remove_list.h" />
+    <ClInclude Include="reverse_List.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

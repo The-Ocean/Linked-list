@@ -24,7 +24,7 @@ struct ListNode* middleNode(struct ListNode* head) {
 	return node;
 }
 
-struct ListNode* Creat(int val)
+struct ListNode* Creat(int val)	
 {
 	struct ListNode* head = (struct ListNode*)malloc(sizeof(struct ListNode));
 	head->val = val;

@@ -33,31 +33,34 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
 				head = node;
 				last = head;
 				head1 = head1->next;
+				continue;
 			}
-			else
-			{
+			//else
+			//{
 				last->next = head1;
 				last = head1;
 				head1 = head1->next;
-			}
+				continue;
+			//}
 		}
-		else 
-		{
+		//else 
+		//{
 			if (node == NULL)
 			{
 				node = head2;
 				head = node;
 				last = head;
 				head2 = head2->next;
+				continue;
 			}
-			else
-			{
+			//else
+			//{
 				last->next = head2;
 				last = head2;
 				head2 = head2->next;
-			}
+			//}
 
-		}
+		//}
 	}
 	if (head1 == NULL)
 	{
